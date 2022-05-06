@@ -108,5 +108,4 @@ package-lock.json
 yarn.lock
 
 # Distribution
-
-/dist
+/lib

@@ -7,6 +7,16 @@
   "arrowParens": "always",
   "trailingComma": "es5",
   "xmlWhitespaceSensitivity": "ignore",
+
+  "overrides": [
+    {
+      "files": ".lintstagedrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
+
   "pluginSearchDirs": ["./node_modules", "./node_modules/.pnpm"],
   "plugins": ["prettier-plugin-packagejson", "@prettier/plugin-xml"]
 }
