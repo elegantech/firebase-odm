@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "./out-tsc/tests",
+    "types": ["jest"]
+  },
+  "includes": ["src/**/*.spec.ts"],
+  "exclude": ["node_modules", "lib"]
+}
